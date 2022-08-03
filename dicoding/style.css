@@ -65,13 +65,7 @@ main{
     
 }
 
-.icon{ 
-    width: 10%;
-    float: left;
-    max-height: 300px;
-    object-fit: contain;
-    object-position: center;
-}
+
 
 aside{
     margin: auto;
@@ -97,8 +91,38 @@ footer{
     border-radius: 5px;
     box-shadow: 8px 8px 5px 2px #444;
     background-color: gray;
+    overflow: auto;
     
 }
+.flex-container{
+    padding: 10px;
+}
+
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    margin:  10px;
+    padding: 10px;
+    border: 5px solid #c3c3c3;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin:  10px;
+    padding: 10px;
+    border: 5px solid #c3c3c3;
+    
+}
+.flexbox-item{
+    margin: auto;
+}
+.icon{
+    border: solid 2px;
+}
+
 
 footer {
     padding: 20px;
@@ -106,7 +130,6 @@ footer {
     background-color: #00a2c6;
     text-align: center;
     font-weight: bold;
-    position:absolute;
     width: 100%;
     bottom:0;
  }
@@ -119,3 +142,5 @@ footer {
       
     }
   }
+
+
